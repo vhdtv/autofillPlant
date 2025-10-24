@@ -1,7 +1,7 @@
 
 # autofillPlant
 
-Automação em Python + Selenium para atualizar o campo "Facility type" para "Plant Location" em registros do ServiceNow, iterando hostnames a partir da planilha Inventario_RAD.xlsx (aba "INVENTARIO RAD", coluna "HOSTNAME").
+Automação em Python + Selenium para atualizar o campo "Facility type" para "Plant Location" em registros do ServiceNow, iterando hostnames a partir da planilha Inventario.xlsx (aba "INVENTARIO", coluna "HOSTNAME").
 
 ## Pré-requisitos
 - Python 3.10+
@@ -22,8 +22,8 @@ Crie um arquivo .env na raiz do projeto (existe um .env.sample para copiar):
 INSTANCE_URL=https://SUA_INSTANCIA.service-now.com
 SN_USER=seu.usuario
 SN_PASS=sua.senha
-EXCEL_PATH=Inventario_RAD.xlsx
-EXCEL_SHEET=INVENTARIO RAD
+EXCEL_PATH=Inventario.xlsx
+EXCEL_SHEET=INVENTARIO
 EXCEL_COLUMN=HOSTNAME
 FACILITY_TYPE=Plant Location
 USE_COORDINATE_SAVE=false
