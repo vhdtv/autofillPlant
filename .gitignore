@@ -1,0 +1,26 @@
+# Python venv
+.venv/
+
+# Bytecode
+__pycache__/
+*.pyc
+
+# Credentials
+.env
+
+# Excel files
+Inventario_RAD.xlsx
+
+# Chrome portable
+chrome-win64/
+
+# Screenshots and reports
+error_*.png
+resultado_facility.csv
+
+# Profile data
+chrome-profile/
+
+# OS files
+.DS_Store
+Thumbs.db
